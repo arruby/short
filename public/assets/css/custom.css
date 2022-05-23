@@ -1,0 +1,47 @@
+body {
+    background-color: #343434;
+}
+
+#judul,
+#sub-judul {
+    color: #DFDFDF;
+}
+
+#btn-pendekin {
+    background-color: #5F5980;
+    color: #DFDFDF
+}
+
+#url_original {
+    width: 50%;
+}
+
+#frame_control {
+    border: #DFDFDF 1px solid;
+    border-radius: 5px;
+    width: 35%;
+}
+
+.text_control {
+    color: #DFDFDF;
+}
+
+#btn_linkOriginal {
+    background-color: #5F5980;
+    border-color: #5F5980;
+    color: #DFDFDF;
+    font-weight: 600;
+}
+
+#btn_linkOriginal:hover {
+    border-color: #5F5980;
+    background-color: #DFDFDF;
+    color: #5F5980;
+}
+
+/* =========================== INI UNTUK CSS MOBILE =========================== */
+@media screen and (max-width: 576px) {
+    #url_original {
+        width: 100%;
+    }
+}
