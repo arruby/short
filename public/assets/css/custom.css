@@ -2,6 +2,11 @@ body {
     background-color: #343434;
 }
 
+label {
+    color: #DFDFDF;
+    font-weight: 600;
+}
+
 #judul,
 #sub-judul {
     color: #DFDFDF;
@@ -26,22 +31,34 @@ body {
     color: #DFDFDF;
 }
 
-#btn_linkOriginal {
+#btn_linkOriginal,
+.btn_list,
+.btn_login {
     background-color: #5F5980;
     border-color: #5F5980;
     color: #DFDFDF;
     font-weight: 600;
 }
 
-#btn_linkOriginal:hover {
+#btn_linkOriginal:hover,
+.btn_list:hover,
+.btn_login:hover {
     border-color: #5F5980;
     background-color: #DFDFDF;
     color: #5F5980;
+}
+
+#group_listLink {
+    width: 50%;
 }
 
 /* =========================== INI UNTUK CSS MOBILE =========================== */
 @media screen and (max-width: 576px) {
     #url_original {
         width: 100%;
+    }
+
+    #group_listLink {
+        width: 80%;
     }
 }

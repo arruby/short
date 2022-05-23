@@ -32,6 +32,8 @@ $routes->setAutoRoute(true);
 // We get a performance increase by specifying the default
 // route since we don't have to scan directories.
 $routes->get('/', 'Landing::index');
+$routes->get('/list', 'ListLinkCont::index');
+$routes->get('/login', 'LoginCont::index');
 $routes->get('/(:segment)', 'Landing::controlShort/$1');
 
 /*
