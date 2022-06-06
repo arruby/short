@@ -4,7 +4,7 @@
 <div class="container-fluid" id="landing-page">
     <div class="d-flex flex-column justify-content-center" style="height:100vh">
         <h1 class="mx-auto mb-4" id="judul">
-            <i class="fa-solid fa-ruler"></i> Pendekin Link
+            <i class="fa-solid fa-ruler"></i> Pendekin Link!
         </h1>
         <form action="#" method="POST" id="form_short">
             <div id="group-input" class="d-flex flex-md-row flex-column justify-content-center">
